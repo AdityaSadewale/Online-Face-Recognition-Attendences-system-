@@ -44,11 +44,6 @@ A professional-grade automated attendance solution that leverages **Computer Vis
 Clone the Repository:
 
 Bash
-git clone [https://github.com/AdityaSadewale/Attendences-system.git](https://github.com/AdityaSadewale/Attendences-system.git)
-cd Attendences-system
-Backend Setup:
-
-Bash
 cd backend
 pip install -r requirements.txt
 python manage.py migrate
