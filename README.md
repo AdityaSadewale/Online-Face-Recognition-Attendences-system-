@@ -1,5 +1,4 @@
-# 📸Online-Face-Recognition-Attendences-system-
-Public
+# 📸Online-Face-Recognition-Attendences-system
 
 
 A professional-grade automated attendance solution that leverages **Computer Vision** and **Deep Learning** to track student presence. This system bridges a **Django** backend with a **React** frontend, utilizing the **Google Sheets API** for structured, real-time reporting.
