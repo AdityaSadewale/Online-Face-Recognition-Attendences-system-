@@ -10,6 +10,7 @@ function Dashboard({ user, attendances, setAttendances }) {
     time: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
     lecture: 'Lecture 1 (9:00 AM - 10:00 AM)'
   });
+  
 
   const [showWebcam, setShowWebcam] = useState(false);
   const [showSuccess, setShowSuccess] = useState(false);
