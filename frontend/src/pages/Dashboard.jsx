@@ -22,6 +22,7 @@ function Dashboard({ user, attendances, setAttendances }) {
 
   const webcamRef = useRef(null);
 
+  
   const today = new Date().toISOString().split('T')[0];
   const userTodayAttendances = attendances.filter(a => a.rollNo === user.rollNo && a.date === today);
 
