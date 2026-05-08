@@ -29,6 +29,7 @@ function LiveAttendance() {
 
   return (
     <div className="dashboard-layout">
+      
       {/* Main Video Section */}
       <div className="glass-panel">
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '20px' }}>
