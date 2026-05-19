@@ -7,6 +7,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from deepface import DeepFace
 
+
 app = FastAPI()
 
 # Allow CORS for React frontend
