@@ -3,7 +3,6 @@ import confetti from 'canvas-confetti';
 import { Edit2, CheckCircle, Camera } from 'lucide-react';
 import Webcam from 'react-webcam';
 
-
 function Dashboard({ user, attendances, setAttendances }) {
   const [formData, setFormData] = useState({
     date: new Date().toISOString().split('T')[0],
@@ -11,7 +10,6 @@ function Dashboard({ user, attendances, setAttendances }) {
     lecture: 'Lecture 1 (9:00 AM - 10:00 AM)'
   });
   
-
   const [showWebcam, setShowWebcam] = useState(false);
   const [showSuccess, setShowSuccess] = useState(false);
   const [errorMsg, setErrorMsg] = useState('');
