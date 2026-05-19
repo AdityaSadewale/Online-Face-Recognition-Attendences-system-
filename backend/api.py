@@ -52,7 +52,7 @@ async def verify_face(req: VerificationRequest):
             img1_path=captured_img, 
             img2_path=reference_path, 
             enforce_detection=False,
-            model_name="VGG-Face" # lightweight, fast
+            model_name="VGG-Face" # lightweight 
         )
 
         is_match = result.get("verified", False)
