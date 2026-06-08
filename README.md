@@ -4,7 +4,6 @@ A professional-grade automated attendance solution that leverages **Computer Vis
 
 ---
 
-
 ## 🚀 Key Features
 
 *   **Real-Time Face Recognition:** Utilizes OpenCV and Dlib-based `face_recognition` to identify students via live webcam feeds.
