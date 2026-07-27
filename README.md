@@ -9,9 +9,7 @@ A professional-grade automated attendance solution that leverages **Computer Vis
 *   **Google Sheets Integration:** Automatically populates a professionally structured spreadsheet with daily attendance data, including conditional formatting for "Present" and "Absent" status.
 *   **Dynamic Dashboard:** A React-based interface for students to monitor their hourly attendance percentages and for administrators to manage student records.
 *   **Scalable Architecture:** Built with a MERN-inspired approach, replacing Express with Django for robust Python-based AI integration.
-
 ---
-
 ## 🛠️ Tech Stack
 
 | Layer | Technology |
