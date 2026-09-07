@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 function LiveAttendance() {
   const [logs, setLogs] = useState([]);
   
+  
   // Dummy logs for UI presentation before backend integration
   useEffect(() => {
     // In production, this would fetch from the backend API or connect to a websocket
