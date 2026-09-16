@@ -5,6 +5,7 @@ A professional-grade automated attendance solution that leverages **Computer Vis
 ## 🚀 Key Features
 
 
+
 *   **Real-Time Face Recognition:** Utilizes OpenCV and Dlib-based `face_recognition` to identify students via live webcam feeds.
 *   **Hourly Slot Logic:** Intelligent backend tracking that marks attendance for specific time slots (e.g., 9:00 AM - 10:00 AM) to prevent duplicate entries.
 *   **Google Sheets Integration:** Automatically populates a professionally structured spreadsheet with daily attendance data, including conditional formatting for "Present" and "Absent" status.
