@@ -24,6 +24,7 @@ A professional-grade automated attendance solution that leverages **Computer Vis
 
 ---
 
+
 ## 📂 Project Structure
 
 ```text
