@@ -58,6 +58,7 @@ async def verify_face(req: VerificationRequest):
             model_name="VGG-Face" # lightweight 
         )
 
+        
         is_match = result.get("verified", False)
         
         return {
