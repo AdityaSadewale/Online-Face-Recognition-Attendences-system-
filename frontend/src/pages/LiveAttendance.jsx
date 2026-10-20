@@ -21,6 +21,7 @@ function LiveAttendance() {
         ]);
       }
     };
+
     
     fetchLogs();
     const interval = setInterval(fetchLogs, 5000);
