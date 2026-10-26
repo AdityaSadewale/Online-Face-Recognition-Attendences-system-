@@ -8,7 +8,6 @@ function Login({ onLogin }) {
     studyYear: '1st Year'
   });
 
-  
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
