@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 
-
 function StudentProfile() {
   const [student, setStudent] = useState({
     name: "Aditya Sadewale",
